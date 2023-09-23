@@ -289,6 +289,14 @@ header .intro-text {
   list-style: none;
   padding: 0;
 }
+/* Custom styles for the WhatsApp button container */
+.whatsapp-button-container {
+  position: fixed;
+  bottom: 20px; /* Adjust the positioning as needed */
+  right: 20px;
+  z-index: 1; /* Ensure a higher z-index than the scroll-to-top button */
+}
+
 .logo-image {
   width: 100px;
   height: 80px;
