@@ -1,10 +1,10 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Leave No One Hungry"
+   
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "The program draws its inspiration from the message of ISKCON’s Founder-Acharya Srila Prabhupada who envisioned that no one within a 10-mile radius of its center should go hungry. With that mission in mind, our team of professional and selfless volunteers have served over 550 crore plates of meals till date.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
