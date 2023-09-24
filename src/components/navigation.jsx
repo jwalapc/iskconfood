@@ -63,6 +63,12 @@ export const Navigation = (props) => {
               </a>
             </li>
           </ul>
+          <a
+                  href="#features"
+                  className="btn btn-custom btn-lg page-scroll"
+                >
+                  Donate Now
+                </a>{" "}
         </div>
       </div>
     </nav>
