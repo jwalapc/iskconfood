@@ -1,36 +1,44 @@
-import { Image } from "./image";
 import React from "react";
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
 
-export const Gallery = (props) => {
+const galleryStyle = {
+  maxWidth: "900px", // Adjust the maximum width as needed
+  margin: "0 auto", // Center-align the gallery horizontally
+};
+
+export const Gallery = () => {
+  const images = [
+    {
+      original: "https://picsum.photos/id/1018/800/480/",
+      thumbnail: "https://picsum.photos/id/1018/200/120/"
+    },
+    {
+      original: "https://picsum.photos/id/1015/800/480/",
+      thumbnail: "https://picsum.photos/id/1015/200/120/"
+    },
+    {
+      original: "https://picsum.photos/id/1019/800/480/",
+      thumbnail: "https://picsum.photos/id/1019/200/120/"
+    }
+  ];
+
   return (
-    <div id="portfolio" className="text-center">
-      <div className="container">
-        <div className="section-title">
-          <h2>Gallery</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
-        </div>
-        <div className="row">
-          <div className="portfolio-items">
-            {props.data
-              ? props.data.map((d, i) => (
-                  <div
-                    key={`${d.title}-${i}`}
-                    className="col-sm-6 col-md-4 col-lg-4"
-                  >
-                    <Image
-                      title={d.title}
-                      largeImage={d.largeImage}
-                      smallImage={d.smallImage}
-                    />
-                  </div>
-                ))
-              : "Loading..."}
-          </div>
-        </div>
-      </div>
+    <div className="App" style={galleryStyle}>
+      <h1 style={{ textAlign: 'center', fontWeight: 'bold', color: "black" }}>Gallery</h1>
+      <ImageGallery
+        items={images}
+        showPlayButton={true}
+        autoPlay={true}
+        slideDuration={1000}
+        showFullscreenButton={true}
+        slideInterval={1000}
+        slideOnThumbnailOver={true}
+        showIndex={true}
+        onPlay={() => {
+          // Your play function logic here
+        }}
+      />
     </div>
   );
 };

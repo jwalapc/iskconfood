@@ -215,7 +215,8 @@ a:focus,
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-}
+  background-attachment: fixed;
+  height: 100vh;}
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
