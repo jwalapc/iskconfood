@@ -1,33 +1,51 @@
 import React from "react";
+import Faq from "react-faq-component";
 
-export const Team = (props) => {
+const data = {
+  title: "FAQ (How it works)",
+  rows: [
+    {
+      title: "Lorem ipsum dolor sit amet",
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat, ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus. In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae. Fusce sed commodo purus, at tempus turpis.",
+    },
+    {
+      title: "Nunc maximus, magna at ultricies elementum",
+      content:
+        "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+    },
+    {
+      title: "Curabitur laoreet, mauris vel blandit fringilla",
+      content:
+        "Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem. Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam. Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat. Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim.",
+    },
+    {
+      title: "What is the package version",
+      content: <p>Current version is 1.2.1</p>,
+    },
+  ],
+};
+
+const styles = {
+  bgColor: "white",
+  titleTextColor: "Black",
+  rowTitleColor: "Black",
+  rowContentColor: "Black",
+  arrowColor: "Black",
+};
+
+const config = {
+  animate: true,
+  arrowIcon: "V",
+  tabFocus: true,
+};
+
+export const Team = () => {
   return (
-    <div id="team" className="text-center">
-      <div className="container">
-        <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Meet the Team</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
-        </div>
-        <div id="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
-                  <div className="thumbnail">
-                    {" "}
-                    <img src={d.img} alt="..." className="team-img" />
-                    <div className="caption">
-                      <h4>{d.name}</h4>
-                      <p>{d.job}</p>
-                    </div>
-                  </div>
-                </div>
-              ))
-            : "loading"}
-        </div>
-      </div>
+    <div>
+      <Faq data={data} styles={styles} config={config} />
     </div>
   );
 };
+
+export default Team;

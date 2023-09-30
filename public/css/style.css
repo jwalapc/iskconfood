@@ -1,4 +1,9 @@
-body,
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 html {
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;

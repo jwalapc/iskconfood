@@ -33,7 +33,7 @@ const App = () => {
       <Services data={landingPageData.Services} />
       <Gallery/>
       <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
+      <Team />
       <Contact data={landingPageData.Contact} />
       
       <div className="whatsapp-button-container">
