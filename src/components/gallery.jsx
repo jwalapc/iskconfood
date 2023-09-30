@@ -24,7 +24,7 @@ export const Gallery = () => {
   ];
 
   return (
-    <div className="App" style={galleryStyle}>
+    <div id="portfolio" style={galleryStyle}>
       <h1 style={{ textAlign: 'center', fontWeight: 'bold', color: "black" }}>Gallery</h1>
       <ImageGallery
         items={images}

@@ -42,7 +42,7 @@ const config = {
 
 export const Team = () => {
   return (
-    <div>
+    <div id="team">
       <Faq data={data} styles={styles} config={config} />
     </div>
   );
