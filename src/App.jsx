@@ -12,7 +12,7 @@ import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import  ScrollToTop from './components/ScrollToTop/ScrollToTop';
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
+//import { FloatingWhatsApp } from 'react-floating-whatsapp'
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -36,14 +36,14 @@ const App = () => {
       <Team />
       <Contact data={landingPageData.Contact} />
       
-      <div className="whatsapp-button-container">
+      {/* <div className="whatsapp-button-container">
         <FloatingWhatsApp
           phoneNumber="9004647265"
           accountName="ISKCON"
           avatar="https://iskconmumbai.com/images/logo-white.png"
           statusMessage="Welcome to ISKCON!"
         />
-      </div>
+      </div> */}
       <ScrollToTop/> 
 
 
