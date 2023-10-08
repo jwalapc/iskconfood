@@ -5,7 +5,7 @@ export const Features = (props) => {
     <div id="features" className="text-center">
       <div className="container" >
         <div className="col-md-10 col-md-offset-1 section-title">
-          <h2>Features</h2>
+          <h2>Donate for a Child</h2>
         </div>
         <div className="row">
           {props.data
@@ -16,6 +16,10 @@ export const Features = (props) => {
                   <i className={d.icon2} style={{ backgroundImage: 'url("img/portfolio/is111.jpg")', backgroundSize: 'cover' }}></i>
                   <i className={d.icon3} style={{ backgroundImage: 'url("img/portfolio/is111.jpg")', backgroundSize: 'cover' }}></i>
                   <i className={d.icon4} style={{ backgroundImage: 'url("img/portfolio/is111.jpg")', backgroundSize: 'cover' }}></i>
+                  <i className={d.icon5} style={{ backgroundImage: 'url("img/portfolio/is111.jpg")', backgroundSize: 'cover' }}></i>
+                  <i className={d.icon6} style={{ backgroundImage: 'url("img/portfolio/is111.jpg")', backgroundSize: 'cover' }}></i>
+                  <i className={d.icon7} style={{ backgroundImage: 'url("img/portfolio/is111.jpg")', backgroundSize: 'cover' }}></i>
+                  <i className={d.icon8} style={{ backgroundImage: 'url("img/portfolio/is111.jpg")', backgroundSize: 'cover' }}></i>
 
 
                   <a

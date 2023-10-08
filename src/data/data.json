@@ -147,23 +147,44 @@
   "Features": [
     {
       "icon1": "fa fa-comments-",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "DONATE 2001 PLATES",
+      "text": "Rs. 80,040      "
     },
     {
       "icon2": "fa fa-bullhor",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "DONATE 1001 PLATES",
+      "text": "Rs. 40,040"
     },
     {
       "icon3": "fa fa-grou",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "DONATE 501 PLATES",
+      "text": "Rs. 20,040"
     },
     {
       "icon4": "fa fa-magi",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "DONATE 401 PLATES",
+      "text": "Rs. 16,040"
+    },
+    {
+      "icon5": "fa fa-comments-",
+      "title": "DONATE 301 PLATES",
+      "text": "Rs. 12,040"
+    },
+    {
+      "icon6": "fa fa-comments-",
+      "title": "DONATE 201 PLATES",
+      "text": "Rs. 8,040"
+    },
+    {
+      "icon7": "fa fa-comments-",
+      "title": "DONATE 101 PLATES",
+      "text": "Rs. 4,040 "
+    },
+    {
+      "icon8": "fa fa-comments-",
+      "title": "DONATE ANY AMOUNT",
+      "text": "Rs. 40 per plate"
     }
+
   ]
 }
