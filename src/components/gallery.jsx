@@ -10,16 +10,36 @@ const galleryStyle = {
 export const Gallery = () => {
   const images = [
     {
-      original: "https://picsum.photos/id/1018/800/480/",
-      thumbnail: "https://picsum.photos/id/1018/200/120/"
+      original: "img/portfolio/pic1.jpg",
+      thumbnail: "img/portfolio/pic1.jpg"
     },
     {
-      original: "https://picsum.photos/id/1015/800/480/",
-      thumbnail: "https://picsum.photos/id/1015/200/120/"
+      original: "img/portfolio/pic2.jpg",
+      thumbnail: "img/portfolio/pic2.jpg"
+    },
+    // {
+    //   original: "img/portfolio/pic3.jpg",
+    //   thumbnail: "img/portfolio/pic3.jpg"
+    // },
+    // {
+    //   original: "img/portfolio/pic4.jpg",
+    //   thumbnail: "img/portfolio/pic4.jpg"
+    // },
+    {
+      original: "img/portfolio/pic5.jpg",
+      thumbnail: "img/portfolio/pic5.jpg"
     },
     {
-      original: "https://picsum.photos/id/1019/800/480/",
-      thumbnail: "https://picsum.photos/id/1019/200/120/"
+      original: "img/portfolio/pic6.jpg",
+      thumbnail: "img/portfolio/pic6.jpg"
+    },
+    {
+      original: "img/portfolio/pic7.jpg",
+      thumbnail: "img/portfolio/pic7.jpg"
+    },
+    {
+      original: "img/portfolio/pic8.jpg",
+      thumbnail: "img/portfolio/pic8.jpg"
     }
   ];
 
