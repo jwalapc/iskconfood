@@ -462,20 +462,20 @@ header .intro-text {
   color: #666;
 }
 /* Team Section */
-#team {
+#team1 {
   padding: 100px 0;
 }
-#team h4 {
+#team1 h4 {
   margin: 5px 0;
 }
-#team .team-img {
+#team1 .team1-img {
   width: 240px;
 }
-#team .thumbnail {
+#team1 .thumbnail {
   background: transparent;
   border: 0;
 }
-#team .thumbnail .caption {
+#team1 .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
 }
@@ -591,6 +591,7 @@ label {
 #contact .social ul li {
   display: inline-block;
   margin: 0 20px;
+
 }
 #contact .social i.fa {
   font-size: 22px;
@@ -601,10 +602,11 @@ label {
   color: #fff;
   border-radius: 50%;
   transition: all 0.3s;
+  background-color: white;
 }
 #contact .social i.fa:hover {
   color: #f19812ef;
-  background: #fff;
+  background: #ddd;
 }
 /* Footer Section*/
 #footer {

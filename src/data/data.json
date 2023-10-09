@@ -4,19 +4,15 @@
    
   },
   "About": {
-    "paragraph": "The program draws its inspiration from the message of ISKCON’s Founder-Acharya Srila Prabhupada who envisioned that no one within a 10-mile radius of its center should go hungry. With that mission in mind, our team of professional and selfless volunteers have served over 550 crore plates of meals till date.",
+    "paragraph": "ISKCON’s Food Relief program is the world’s largest vegetarian food distribution effort with an active presence in 65 countries. Since its establishment in 1970, ISKCON, a charitable organization, has been at forefront of delivering food relief in some of the most difficult and dangerous locations around the world be it areas affected by war to natural calamities.The most recent efforts include Covid pandemic response, Ukraine crisis, floods in Assam, cloudburst in Uttrakhand..",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Hare Krishna"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+      "Hare Krishna"
+    ],
+    "paragraph1": "The program draws its inspiration from the message of ISKCON’s Founder-Acharya Srila Prabhupada who envisioned that no one within a 10-mile radius of its center should go hungry. With that mission in mind, our team of professional and selfless volunteers have served over 550 crore plates of meals till date.During the Covid pandemic, ISKCON’s food distribution (or also known as Annadan seva) has benefited millions of people across the world. At the request of several state governments, ISKCON food relief helped migrant workers, police officers, and front-line staff by providing nutritious and fresh meals as per their taste. Since the beginning of Covid pandemic, our team has distributed over 76 crore plates of meals. ISKCON and its affiliate foundations would like to thank the governments, donors, volunteers, and well-wishers for helping us play our part in combating COVID-19."
+
   },
   "Gallery": [
     {
@@ -85,64 +81,31 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Nothing can be more gratifying than being able to provide food to someone. By partnering with ISKCON in feeding thousands of labourers amidst COVID-19 pandemic, Team Adani Foundation has lived by its core Gandhian philosophy of Trusteeship.\"",
+      "name": "Gautam Adani"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"The team was very supportive and kept me motivated .A charity that brings smiles to the faces, is a noble deed which is initiated by ISKCON food donation for child and poor.\"",
+      "name": "Ajith Kumar"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Awesome initiative. We appreciate ISKCON for the Food for Child Initiative, which has created this amazing platform for us to contribute to the feeding and educating underprivileged tribal brilliant young children. We are really happy with the procedure, transparency, and clarity offered by society.\"",
+      "name": "Pratik Rao"
     }
   ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
-    }
-  ],
+  
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "Bhishma Dept , ISKCON, Hare Krishna Land, Juhu, Mumbai, Maharashtra 400049 ",
+    "phone": "+91 9987786448",
+    "email": "pranav@iskconmumbai.com",
+    "facebook": "https://facebook.com/iskconannadaan/",
+    "twitter": "https://twitter.com/IskconFFC",
+    "whatsapp": "https://wa.link/r8dyei",
+    "youtube": "https://youtube.com/channel/UCZdEz8o8ULkDV4jj8y7ncmg/featured",
+    "instagram": "https://www.instagram.com/iskcon.foodforchild/",
+    "linkedin": "https://linkedin.com/company/iskcon-food-for-child/"
   },
   "Features": [
     {
