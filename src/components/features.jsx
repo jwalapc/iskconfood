@@ -23,7 +23,7 @@ export const Features = (props) => {
 
 
                   <a
-                  href="#features"
+                  href={d.donateLink} 
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Donate Now

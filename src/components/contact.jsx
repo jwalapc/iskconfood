@@ -189,7 +189,7 @@ export const Contact = (props) => {
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube" style={{ color: "#ff0000" }}></i>
+                      <i className="fa fa-whatsapp" style={{ color: "green" }}></i>
                     </a>
                   </li>
                 </ul>
