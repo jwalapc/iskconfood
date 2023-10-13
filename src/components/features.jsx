@@ -27,11 +27,11 @@ export const Features = (props) => {
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Donate Now
-                </a>{" "}  <h3>{d.title}</h3>
-                  <p>{d.text}</p>
+                </a>{" "}  <h3 style={{ fontFamily: "Your Desired Font", fontSize: "24px", color: "#333", fontWeight: "bold" }}>{d.title}</h3>
+                  <p style={{fontWeight: "bold",fontSize: "20px" }}>{d.text}</p>
                 </div>
               ))
-            : "Loading..."}
+            : "Loading..."}  
         </div>
       </div>
     </div>

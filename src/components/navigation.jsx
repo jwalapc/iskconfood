@@ -2,8 +2,21 @@ import React from "react";
 
 export const Navigation = (props) => {
   return (
+    
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+     <div className="subheader" style={{ backgroundColor: "#007bff", color: "#ffffff", textAlign: "center" ,position:"relative",top:"-20px",}}>
+        <p style={{ padding: "10px" }}>
+        The website of ISKCON Food For Child program | Contact: +91 9987786448
+          <a href="https://www.facebook.com/your-facebook-page" target="_blank" rel="noopener noreferrer" style={{ marginLeft: "10px", color: "#ffffff" }}>
+            <i className="fa fa-facebook"></i> {/* Font Awesome Facebook Icon */}
+          </a>
+          <a href="https://www.instagram.com/your-instagram-profile" target="_blank" rel="noopener noreferrer" style={{ marginLeft: "10px", color: "#ffffff" }}>
+            <i className="fa fa-instagram"></i> {/* Font Awesome Instagram Icon */}
+          </a>
+        </p>
+      </div>
       <div className="container">
+        
         <div className="navbar-header">
           <button
             type="button"
@@ -21,7 +34,7 @@ export const Navigation = (props) => {
           <img src="img/logo.JPG"  class="logo-image" />
           </a>
         </div>
-
+    
         <div
           className="collapse navbar-collapse"
           id="bs-example-navbar-collapse-1"
@@ -57,23 +70,24 @@ export const Navigation = (props) => {
                 FAQ
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#team1" className="page-scroll">
                Team
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact" className="page-scroll">
                 Contact
               </a>
             </li>
-          </ul>
-          <a
+             <a
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Donate Now
                 </a>{" "}
+          </ul>
+         
         </div>
       </div>
     </nav>

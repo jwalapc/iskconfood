@@ -1,8 +1,10 @@
 body, html {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  object-fit: cover;
 }
+
+
 
 html {
   font-family: "Open Sans", sans-serif;
@@ -214,7 +216,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg1.jpg) center center no-repeat;
+  background: url(../img/isk.gif) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -305,9 +307,9 @@ header .intro-text {
 
 .logo-image {
   width: 100px;
-  height: 80px;
+  height: 100px;
   position: relative;
-  top: -30px; /* Adjust this value to move the image up */
+  top: -47px; /* Adjust this value to move the image up */
 }
 #about .about-text li:before {
   content: "\f00c";

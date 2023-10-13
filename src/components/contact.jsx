@@ -74,76 +74,7 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form
-                name="sentMessage"
-                validate
-                onSubmit={handleSubmit}
-                style={formStyles}
-              >
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <label htmlFor="name" style={labelStyles}>
-                        Name
-                      </label>
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="form-control"
-                        placeholder="Your Name"
-                        required
-                        onChange={handleChange}
-                        style={inputStyles}
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <label htmlFor="email" style={labelStyles}>
-                        Email
-                      </label>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="form-control"
-                        placeholder="Your Email"
-                        required
-                        onChange={handleChange}
-                        style={inputStyles}
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="form-group">
-                  <label htmlFor="message" style={labelStyles}>
-                    Message
-                  </label>
-                  <textarea
-                    name="message"
-                    id="message"
-                    className="form-control"
-                    rows="4"
-                    placeholder="Your Message"
-                    required
-                    onChange={handleChange}
-                    style={inputStyles}
-                  ></textarea>
-                </div>
-                <div id="success"></div>
-                <button
-                  type="submit"
-                  className="btn btn-custom btn-lg"
-                  style={{
-                    backgroundColor: "#007bff",
-                    color: "#ffffff",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Send Message
-                </button>
-              </form>
+              
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
