@@ -6,6 +6,7 @@ export const Features = (props) => {
       <div className="container" >
         <div className="col-md-10 col-md-offset-1 section-title">
           <h2>Donate for a Child</h2>
+          <h3>All donations are exempted under Income Tax Section 80G and a receipt is automatically emailed to you.</h3>
         </div>
         <div className="row">
           {props.data
