@@ -34,7 +34,7 @@ const App = () => {
       <ShlokComponent />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
+      {/* <Services data={landingPageData.Services} /> */}
       <Gallery/>
       <Testimonials data={landingPageData.Testimonials} />
       <Team />

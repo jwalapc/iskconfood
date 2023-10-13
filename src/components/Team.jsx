@@ -1,45 +1,42 @@
 import React from 'react';
 
-import { Collapse } from 'antd';
-
-const { Panel } = Collapse;
-
-export const Team =() =>{
+export const Team = () => {
   const containerStyle = {
-    maxWidth: '1100px', // Adjust the maximum width as needed
-    margin: '0 auto',  // Center the component horizontally
-    padding: '80px',   // Add padding to the component
-   
+    maxWidth: '1100px',
+    margin: '0 auto',
+    padding: '80px',
   };
 
-  return(
+  const iframeContainerStyle = {
+    width: '100%',
+    position: 'relative',
+    paddingBottom: '75%', // Adjust the aspect ratio (e.g., 75% for a 4:3 aspect ratio)
+  };
+
+  const iframeStyle = {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+  };
+
+  return (
     <div id="faq" className="block faqBlock" style={containerStyle}>
       <div className="container-fluid">
         <div className="titleHolder">
-        <h2 style={{ textAlign: 'center' }}>Frequently Asked Questions</h2>
+          <h2 style={{ textAlign: 'center' }}>Frequently Asked Questions</h2>
         </div>
-        <Collapse defaultActiveKey={['1']}>
-          <Panel header="How to setup the theme?" key="1">
-            <p>Get your website up and running in no time with our user-friendly setup theme. Experience seamless customization options and enjoy a stress-free launch with our step-by-step guide. Upgrade your online presence with a professional look that's tailored to your brand.</p>
-          </Panel>
-          <Panel header="Can I change plan or cancel at any time?" key="2">
-            <p>We understand that plans can change, and that's why we offer a flexible cancelation policy for our customers. If you need to cancel your plan, please contact our support team for assistance. We'll do our best to make the process as smooth and hassle-free as possible.</p>
-          </Panel>
-          <Panel header="How to access through cloud?" key="3">
-            <p>Access your data anytime, anywhere with our cloud-based solution. No more limitations, enjoy seamless access to your information from any device with internet connection. Say goodbye to traditional setup, embrace the future of tech with us.</p>
-          </Panel>
-          <Panel header="Can I manage multiple task?" key="4">
-            <p>Maximize your productivity and efficiency with our app's ability to handle multiple tasks seamlessly. Say goodbye to juggling between multiple windows and programs and hello to effortless multitasking.</p>
-          </Panel>
-          <Panel header="How can I change my password?" key="5">
-            <p>Simplify your life with our easy-to-use password change feature. Securely update your password in just a few clicks, ensuring maximum protection for your data and peace of mind for you. Try it now!</p>
-          </Panel>
-          <Panel header="How to manage my account?" key="6">
-            <p>Manage all your accounts in one place with our streamlined and secure account management system. Easily update personal information, change passwords, and track account activity. Simplify your life and stay in control with our user-friendly platform.</p>
-          </Panel>
-        </Collapse>
-       
+        <div style={iframeContainerStyle}>
+          <iframe
+            title="PDF Viewer"
+            src="img/portfolio/sample.pdf" // Replace with the URL to your PDF file
+            style={iframeStyle} // Apply the responsive style
+            frameBorder="0"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
-    </div>  
+    </div>
   );
-}
+};

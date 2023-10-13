@@ -623,10 +623,10 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  background: url(../img/intro-bg1.jpg) center center no-repeat;
     background-size: cover; /* Adjust as needed */
   background-repeat: no-repeat; /* Prevent image from repeating */
   /* Add more styles for the container, such as width, height, padding, etc. */
+  background-color: #007bff;
 }
 #contact .section-title {
   margin-bottom: 40px;

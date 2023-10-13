@@ -63,7 +63,11 @@ export const Contact = (props) => {
 
   return (
     <div>
-      <div id="contact">
+      <div id="contact" style={{
+        height: "54vh",
+        overflow: "hidden",
+        backgroundAttachment: "fixed",
+      }}>
         <div className="container">
           <div className="col-md-8">
             <div className="row">
@@ -74,11 +78,48 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              
+              <div className="col-md-12"  style={{position:"relative",top:"-20px"}}>
+            <div className="row">
+              <div className="social">
+                <ul>
+                  <li>
+                    <a href={props.data ? props.data.facebook : "/"}>
+                      <i className="fa fa-facebook" style={{ color: "#1877f2" }}></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.twitter : "/"}>
+                      <i className="fa fa-twitter" style={{ color: "#1da1f2" }}></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.whatsapp : "/"}>
+                      <i className="fa fa-whatsapp" style={{ color: "green" }}></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.youtube : "/"}>
+                      <i className="fa fa-youtube" style={{ color: "red" }}></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.instagram : "/"}>
+                      <i className="fa fa-instagram" style={{ color: "pink" }}></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.linkedin : "/"}>
+                      <i className="fa fa-linkedin" style={{ color: "blue" }}></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div className="col-md-3 col-md-offset-1 contact-info">
-            <div className="contact-item">
+            </div>
+          </div>
+          <div className="col-md-3 col-md-offset-1 contact-info" style={{position:"relative",top:"-70px"}}>
+            <div className="contact-item" >
               <h3 style={{ color: "#ffffff", fontSize: "25px", fontWeight: "bold" }}>Contact Info</h3>
               <p style={{ color: "#ffffff", fontWeight: "bold" ,fontSize: "20px"}}>
                 <span>
@@ -102,46 +143,11 @@ export const Contact = (props) => {
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>
+              
             </div>
+            
           </div>
-          <div className="col-md-12">
-            <div className="row">
-              <div className="social">
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook" style={{ color: "#1877f2" }}></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter" style={{ color: "#1da1f2" }}></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.whatsapp : "/"}>
-                      <i className="fa fa-whatsapp" style={{ color: "green" }}></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.whatsapp : "/"}>
-                      <i className="fa fa-youtube" style={{ color: "red" }}></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.whatsapp : "/"}>
-                      <i className="fa fa-instagram" style={{ color: "pink" }}></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.whatsapp : "/"}>
-                      <i className="fa fa-linkedin" style={{ color: "blue" }}></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
       <div id="footer">

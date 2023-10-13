@@ -6,11 +6,11 @@ export const Navigation = (props) => {
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
      <div className="subheader" style={{ backgroundColor: "#007bff", color: "#ffffff", textAlign: "center" ,position:"relative",top:"-20px",}}>
         <p style={{ padding: "10px" }}>
-        The website of ISKCON Food For Child program | Contact: +91 9987786448
-          <a href="https://www.facebook.com/your-facebook-page" target="_blank" rel="noopener noreferrer" style={{ marginLeft: "10px", color: "#ffffff" }}>
+        The website of ISKCON Food For Child program | Contact: +91 7400056919 
+          <a href="https://facebook.com/iskconannadaan" target="_blank" rel="noopener noreferrer" style={{ marginLeft: "10px", color: "#ffffff" }}>
             <i className="fa fa-facebook"></i> {/* Font Awesome Facebook Icon */}
           </a>
-          <a href="https://www.instagram.com/your-instagram-profile" target="_blank" rel="noopener noreferrer" style={{ marginLeft: "10px", color: "#ffffff" }}>
+          <a href="https://www.instagram.com/iskcon.foodforchild" target="_blank" rel="noopener noreferrer" style={{ marginLeft: "10px", color: "#ffffff" }}>
             <i className="fa fa-instagram"></i> {/* Font Awesome Instagram Icon */}
           </a>
         </p>
@@ -50,11 +50,11 @@ export const Navigation = (props) => {
                 About
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#services" className="page-scroll">
                 Services
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#portfolio" className="page-scroll">
                 Gallery

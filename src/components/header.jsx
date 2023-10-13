@@ -14,7 +14,7 @@ export const Header = (props) => {
     <header
       id="header"
       style={{
-        height: "80vh",
+        height: "82vh",
         overflow: "hidden",
         backgroundAttachment: "fixed",
       }}
@@ -36,6 +36,7 @@ export const Header = (props) => {
                 background: `url(${image}) center center no-repeat`,
                 backgroundSize: "cover", // Cover the entire background
                 overflow: "hidden", // Hide overflowing content
+                height: "80vh",
               }}
             >
               <div className="overlay">
