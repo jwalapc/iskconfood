@@ -25,7 +25,7 @@ export const Team = () => {
     <div id="faq" className="block faqBlock" style={containerStyle}>
       <div className="container-fluid">
         <div className="titleHolder">
-          <h2 style={{ textAlign: 'center' }}>Frequently Asked Questions</h2>
+          <h2 style={{ textAlign: 'center' }}>Why we do what we do?</h2>
         </div>
         <div style={iframeContainerStyle}>
           <iframe

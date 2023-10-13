@@ -63,22 +63,26 @@ export const Contact = (props) => {
 
   return (
     <div>
-      <div id="contact" style={{
-        height: "54vh",
-        overflow: "hidden",
-        backgroundAttachment: "fixed",
-      }}>
+      <div
+        id="contact"
+        style={{
+          height: "auto", // Adjust this as needed
+          overflow: "hidden",
+          backgroundAttachment: "fixed",
+        }}
+      >
         <div className="container">
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
                 <h2 style={{ color: "#ffffff" }}>Get In Touch</h2>
                 <p style={{ color: "#ffffff", fontSize: "25px", fontWeight: "bold" }}>
-                  Please fill out the form below to send us an email, and we will
-                  get back to you as soon as possible.
+                Registered under Maharashtra Public Trust Act 1950 vide Registration No.F-2179 (Bom)
                 </p>
               </div>
-              <div className="col-md-12"  style={{position:"relative",top:"-20px"}}>
+            </div>
+          </div>
+          <div className="col-md-12" style={{ position: "relative", top: "-20px" }}>
             <div className="row">
               <div className="social">
                 <ul>
@@ -116,12 +120,10 @@ export const Contact = (props) => {
               </div>
             </div>
           </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-md-offset-1 contact-info" style={{position:"relative",top:"-70px"}}>
-            <div className="contact-item" >
+          <div className="col-md-3 col-md-offset-1 contact-info" style={{ position: "relative", top: "-70px" }}>
+            <div className="contact-item">
               <h3 style={{ color: "#ffffff", fontSize: "25px", fontWeight: "bold" }}>Contact Info</h3>
-              <p style={{ color: "#ffffff", fontWeight: "bold" ,fontSize: "20px"}}>
+              <p style={{ color: "#ffffff", fontWeight: "bold", fontSize: "20px" }}>
                 <span>
                   <i className="fa fa-map-marker" style={iconStyles}></i> Address
                 </span>{" "}
@@ -129,7 +131,7 @@ export const Contact = (props) => {
               </p>
             </div>
             <div className="contact-item">
-              <p style={{ color: "#ffffff", fontWeight: "bold" ,fontSize: "20px"}}>
+              <p style={{ color: "#ffffff", fontWeight: "bold", fontSize: "20px" }}>
                 <span>
                   <i className="fa fa-phone" style={iconStyles}></i> Phone
                 </span>{" "}
@@ -137,17 +139,14 @@ export const Contact = (props) => {
               </p>
             </div>
             <div className="contact-item">
-              <p style={{ color: "#ffffff", fontWeight: "bold",fontSize: "20px" }}>
+              <p style={{ color: "#ffffff", fontWeight: "bold", fontSize: "20px" }}>
                 <span>
                   <i className="fa fa-envelope-o" style={iconStyles}></i> Email
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>
-              
             </div>
-            
           </div>
-         
         </div>
       </div>
       <div id="footer">
