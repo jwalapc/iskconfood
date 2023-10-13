@@ -37,6 +37,8 @@ export const Header = (props) => {
                 backgroundSize: "cover",
                 overflow: "hidden",
                 height: "80vh",
+                position: "relative",
+                bottom: "-100px",                
               }}
             >
               <div className="overlay">

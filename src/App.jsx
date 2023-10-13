@@ -9,6 +9,7 @@ import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { ShlokComponent } from "./components/ShlokComponent";
 import { DonationCounter } from "./components/DonationCounter";
+import {DonationDetails} from "./components/DonationDetails";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -33,6 +34,7 @@ const App = () => {
       <DonationCounter />
       <ShlokComponent />
       <Features data={landingPageData.Features} />
+      <DonationDetails />
       <About data={landingPageData.About} />
       {/* <Services data={landingPageData.Services} /> */}
       <Gallery/>
