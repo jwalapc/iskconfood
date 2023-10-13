@@ -4,32 +4,26 @@ export const Features = (props) => {
   return (
     <div id="features" className="text-center">
       <div className="container">
-        <div className="col-md-10 col-md-offset-1 section-title">
+        <div className="section-title">
           <h2>Donate for a Child</h2>
-          <h3>All Donations paid within India are Tax Exempted under 80/G Section of Income Tax Department, Govt. of India.
-AVAIL 80G BENIFITS ON THE DONATIONS MADE TO ISKCON AS PER INCOME TAX RULE
-Tax Exemption Certificate Ref. No.:
-आ. नि. (छू.) मु. न./80-जी/1667/2007/2008-2009
-.</h3>
+          <h3>
+            All Donations paid within India are Tax Exempted under 80/G Section of Income Tax Department, Govt. of India. AVAIL 80G BENEFITS ON THE DONATIONS MADE TO ISKCON AS PER INCOME TAX RULE Tax Exemption Certificate Ref. No.: आ. नि. (छू.) मु. न./80-जी/1667/2007/2008-2009
+          </h3>
         </div>
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className="col-xs-12 col-sm-6 col-md-3">
-                  <i className={d.icon1} style={{ backgroundImage: 'url("img/portfolio/pic1.jpg")', backgroundSize: 'cover' }}></i>
-                  <i className={d.icon2} style={{ backgroundImage: 'url("img/portfolio/pic2.jpg")', backgroundSize: 'cover' }}></i>
-                  <i className={d.icon3} style={{ backgroundImage: 'url("img/portfolio/pic3.jpg")', backgroundSize: 'cover' }}></i>
-                  <i className={d.icon4} style={{ backgroundImage: 'url("img/portfolio/pic4.jpg")', backgroundSize: 'cover' }}></i>
-                  <i className={d.icon5} style={{ backgroundImage: 'url("img/portfolio/pic5.jpg")', backgroundSize: 'cover' }}></i>
-                  <i className={d.icon6} style={{ backgroundImage: 'url("img/portfolio/pic6.jpg")', backgroundSize: 'cover' }}></i>
-                  <i className={d.icon7} style={{ backgroundImage: 'url("img/portfolio/pic7.jpg")', backgroundSize: 'cover' }}></i>
-                  <i className={d.icon8} style={{ backgroundImage: 'url("img/portfolio/pic8.jpg")', backgroundSize: 'cover' }}></i>
-
-                  <a href={d.donateLink} className="btn btn-custom btn-lg page-scroll">
-                    Donate Now
-                  </a>
-                  <h3 style={{ fontFamily: "Your Desired Font", fontSize: "24px", color: "#333", fontWeight: "bold" }}>{d.title}</h3>
-                  <p style={{ fontWeight: "bold", fontSize: "20px" }}>{d.text}</p>
+                  <div className="feature-item" style={{ textAlign: "center" }}>
+                    <div className="feature-image" style={{ backgroundImage: `url("${d.backgroundImage}")` }}>
+                      <i className={d.icon}></i>
+                    </div>
+                    <h3 style={{ fontFamily: "Your Desired Font", fontSize: "24px",  fontWeight: "bold" }}>{d.title}</h3>
+                    <p style={{ fontWeight: "bold", fontSize: "20px" }}>{d.text}</p>
+                    <a href={d.donateLink} className="btn btn-custom btn-lg page-scroll">
+                      Donate Now
+                    </a>
+                  </div>
                 </div>
               ))
             : "Loading..."}

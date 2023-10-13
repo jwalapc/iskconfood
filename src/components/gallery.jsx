@@ -3,8 +3,8 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const galleryStyle = {
-  maxWidth: "900px", // Adjust the maximum width as needed
-  margin: "0 auto", // Center-align the gallery horizontally
+  maxWidth: "800px", // Adjust the maximum width as needed
+  margin: "auto", // Center-align the gallery horizontally
 };
 
 export const Gallery = () => {

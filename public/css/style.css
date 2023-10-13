@@ -1,7 +1,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow: auto;
 }
 
 .donation-details {
@@ -209,6 +209,30 @@ list-style {
 
 
 /* Add more styles as needed to make it attractive */
+/* CSS for responsive design */
+.feature-item {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s;
+}
+
+.feature-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.feature-item i {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .feature-item {
+    width: 100%;
+  }
+}
 
 
 html {
@@ -465,6 +489,7 @@ header .intro-text {
 #features {
   background: #f6f6f6;
   overflow: hidden;
+  padding: 100px 0;
 }
 #features i.fa {
   font-size: 38px;

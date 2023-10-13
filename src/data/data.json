@@ -112,7 +112,8 @@
       "icon1": "fa fa-comments-",
       "title": "DONATE 2001 PLATES",
       "text": "Rs. 80,040      ",
-      "donateLink": "https://pmny.in/iI2cAWdCuncW"
+      "donateLink": "https://pmny.in/iI2cAWdCuncW",
+      "backgroundImage":"img/portfolio/pic1.jpg"
     },
     {
       "icon2": "fa fa-bullhor",
@@ -152,7 +153,7 @@
     },
     {
       "icon8": "fa fa-comments-",
-      "title": "DONATE ANY ",
+      "title": "DONATE ANY AMOUNT",
       "text": "Rs. 40 per plate",
       "donateLink": "https://pmny.in/TI3kANuWPLAN"
     }
