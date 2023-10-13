@@ -3,6 +3,9 @@ body, html {
   padding: 0;
   overflow-x: hidden;
 }
+
+
+
 .shlok-container {
   text-align: center;
   padding: 20px;
@@ -298,7 +301,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #f19812ef 0%, #f19812ef 100%);
+  background: linear-gradient(to right, #fff 0%, #fff 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -425,7 +428,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #f19812ef 0%, #f19812ef 100%);
+  background: linear-gradient(to right, #fff 0%, #fff 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -447,9 +450,9 @@ header .intro-text {
 
 .logo-image {
   width: 100px;
-  height: 100px;
+  height: 85px;
   position: relative;
-  top: -47px; /* Adjust this value to move the image up */
+  top: -42px; /* Adjust this value to move the image up */
 }
 #about .about-text li:before {
   content: "\f00c";

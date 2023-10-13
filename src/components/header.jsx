@@ -1,6 +1,6 @@
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the carousel styles
-import { Carousel } from "react-responsive-carousel"; // Import the Carousel component
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 export const Header = (props) => {
   const images = [
@@ -20,13 +20,13 @@ export const Header = (props) => {
       }}
     >
       <Carousel
-        showArrows={true} // Optionally, you can hide navigation arrows
-        showStatus={false} // Optionally, you can hide the image status
-        showIndicators={false} // Optionally, you can hide image indicators
-        infiniteLoop={true} // Enable infinite looping
-        autoPlay={true} // Enable auto play
-        useKeyboardArrows={true} // Enable keyboard navigation
-        customTransition="all .1" // Transition duration
+        showArrows={true}
+        showStatus={false}
+        showIndicators={false}
+        infiniteLoop={true}
+        autoPlay={true}
+        useKeyboardArrows={true}
+        customTransition="all .1"
       >
         {images.map((image, index) => (
           <div key={index}>
@@ -34,8 +34,8 @@ export const Header = (props) => {
               className="intro"
               style={{
                 background: `url(${image}) center center no-repeat`,
-                backgroundSize: "cover", // Cover the entire background
-                overflow: "hidden", // Hide overflowing content
+                backgroundSize: "cover",
+                overflow: "hidden",
                 height: "80vh",
               }}
             >
@@ -43,7 +43,7 @@ export const Header = (props) => {
                 <div className="container">
                   <div className="row">
                     <div className="col-md-8 col-md-offset-2 intro-text">
-                      <h1>
+                      <h1  style={{position:"relative",top:"-140px"}}>
                         {props.data ? props.data.title : "Loading"}
                         <span></span>
                       </h1>
@@ -51,16 +51,15 @@ export const Header = (props) => {
                       <a
                         href="#features"
                         className="btn btn-custom btn-lg page-scroll"
-                      >
+                        style={{position:"relative",top:"-190px"}}>
                         Donate Now
-                      </a>{" "}
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          
         ))}
       </Carousel>
     </header>
