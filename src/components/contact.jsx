@@ -69,6 +69,7 @@ export const Contact = (props) => {
           height: "auto", // Adjust this as needed
           overflow: "hidden",
           backgroundAttachment: "fixed",
+          width: "auto",
         }}
       >
         <div className="container">
