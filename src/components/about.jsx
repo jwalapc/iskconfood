@@ -1,4 +1,6 @@
 import React from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import the carousel styles
 
 export const About = (props) => {
   const containerStyle = {
@@ -9,8 +11,7 @@ export const About = (props) => {
     fontSize: "36px",
     fontWeight: "bold",
     marginBottom: "20px",
-    textAlign: "center", // Center align the heading
-
+    textAlign: "center",
   };
 
   const subHeadingStyle = {
@@ -29,6 +30,17 @@ export const About = (props) => {
     height: "auto",
   };
 
+  const carouselImages = [
+    "img/portfolio/pic1.jpg",
+    "img/portfolio/pic2.jpg",
+    // Add more image paths here as needed
+  ];
+  const carouselImages1 = [
+    "img/portfolio/pic6.jpg",
+    "img/portfolio/pic7.jpg",
+    // Add more image paths here as needed
+  ];
+
   return (
     <div id="about" className="about-section" style={containerStyle}>
       <div className="container about-container">
@@ -44,11 +56,14 @@ export const About = (props) => {
         </div>
         <div className="row">
           <div className="col-md-6">
-            <img
-              src="img/portfolio/pic1.jpg"
-              alt="About Us"
-              style={imageStyle}
-            />
+            <Carousel showThumbs={false} showStatus={false} infiniteLoop={true} customTransition="all .1" autoPlay={true}>
+              {carouselImages.map((imagePath, index) => (
+                <div key={index}>
+                  <img src={imagePath} alt={`Image ${index}`} style={imageStyle} />
+                </div>
+              ))}
+            </Carousel>
+            
           </div>
           <div className="col-md-6">
             <div className="about-text">
@@ -57,26 +72,20 @@ export const About = (props) => {
                 {props.data ? props.data.paragraph1 : "loading..."}
               </p>
             </div>
+            
           </div>
-        </div>
-        <div className="row">
           <div className="col-md-6">
-            <div className="about-text">
-              {/* <h3 className="sub-heading" style={subHeadingStyle}>Right Data</h3> */}
-              <p className="about-paragraph" style={paragraphStyle}>
-                {props.data ? props.data.paragraph2 : "loading..."}
-              </p>
+            <Carousel showThumbs={false} showStatus={false} infiniteLoop={true} customTransition="all .1" autoPlay={true}>
+              {carouselImages1.map((imagePath, index) => (
+                <div key={index}>
+                  <img src={imagePath} alt={`Image ${index}`} style={imageStyle} />
+                </div>
+              ))}
+            </Carousel>
+          </div>
             </div>
-          </div>
-          <div className="col-md-6">
-            <img
-              src="img/portfolio/pic2.jpg"
-              alt="About Us"
-              style={imageStyle}
-            />
-          </div>
-        </div>
+         </div>
       </div>
-    </div>
+    
   );
 };

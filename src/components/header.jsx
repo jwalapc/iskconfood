@@ -20,7 +20,7 @@ export const Header = (props) => {
       }}
     >
       <Carousel
-        showArrows={true}
+        showArrows={false}
         showStatus={false}
         showIndicators={false}
         infiniteLoop={true}

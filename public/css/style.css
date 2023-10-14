@@ -99,6 +99,18 @@ body, html {
   margin: 10px 0;
 }
 
+.separator {
+  width: 50%;
+  height: 2px; /* Adjust the height as needed */
+  background-color: #fff; /* Use white color */
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+
+}
+
+
 .donation-counter {
   display: flex;
   justify-content: center;

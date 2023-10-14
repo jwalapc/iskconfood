@@ -9,6 +9,8 @@ export const ShlokComponent = () => {
       <div className="translation">
         {"Donation is the ornament of Hand"}
       </div>
+      <div className="separator"></div>
+
       <div className="shlok">
         अन्न दान महा दान
       </div>
