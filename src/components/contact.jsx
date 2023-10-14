@@ -86,19 +86,10 @@ export const Contact = (props) => {
             <div className="row">
               <div className="social">
                 <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook" style={{ color: "#1877f2" }}></i>
-                    </a>
-                  </li>
+                  
                   <li>
                     <a href={props.data ? props.data.twitter : "/"}>
                       <i className="fa fa-twitter" style={{ color: "#1da1f2" }}></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.whatsapp : "/"}>
-                      <i className="fa fa-whatsapp" style={{ color: "green" }}></i>
                     </a>
                   </li>
                   <li>
@@ -152,7 +143,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p style={{ color: "black", fontWeight: "bold" }}>
-            International Society for Krishna Consciousness (ISKCON) | Founder-Acharya: HDG A.C Bhaktivedanta Swami Prabhupada
+            International Society for Krishna Consciousness (ISKCON) | Founder-Acharya: H.D.G. A.C. Bhaktivedanta Swami Prabhupada
           </p>
         </div>
       </div>

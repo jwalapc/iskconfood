@@ -110,52 +110,44 @@
   "Features": [
     {
       "icon1": "fa fa-comments-",
-      "title": "DONATE 2001 PLATES",
-      "text": "Rs. 80,040      ",
-      "donateLink": "https://pmny.in/iI2cAWdCuncW",
-      "backgroundImage":"img/portfolio/pic1.jpg"
+      "text": "Rs. 2601   ",
+      "donateLink": "https://pmny.in/SJM439WLZGeQ"
     },
     {
       "icon2": "fa fa-bullhor",
-      "title": "DONATE 1001 PLATES",
-      "text": "Rs. 40,040",
-      "donateLink": "https://pmny.in/EIzclWVCSnC0"
+      "text": "Rs. 5001",
+      "donateLink": "https://pmny.in/sry5MtTZI5Xr"
     },
     {
       "icon3": "fa fa-grou",
-      "title": "DONATE 501 PLATES",
-      "text": "Rs. 20,040",
-      "donateLink": "https://pmny.in/0rNXgWCVYVci"
+      "text": "Rs. 10,001",
+      "donateLink": "https://pmny.in/KrpJshQ1QiWL"
     },
     {
       "icon4": "fa fa-magi",
-      "title": "DONATE 401 PLATES",
-      "text": "Rs. 16,040",
-      "donateLink": "https://pmny.in/dInkBN4Y6VJ8"
+      "text": "Rs. 15,001",
+      "donateLink": "https://pmny.in/SJS4D9ELet2F"
     },
     {
       "icon5": "fa fa-comments-",
-      "title": "DONATE 301 PLATES",
-      "text": "Rs. 12,040",
-      "donateLink": "https://pmny.in/BIhkXN6Y4VA4"
+      "text": "Rs. 25,001",
+      "donateLink": "https://pmny.in/dJJ82fAFvjr7"
     },
     {
       "icon6": "fa fa-comments-",
-      "title": "DONATE 201 PLATES",
-      "text": "Rs. 8,040",
-      "donateLink": "https://pmny.in/GIzcEW4CnoKX"
+      "text": "Rs. 50,001",
+      "donateLink": "https://pmny.in/AJ28sf6uBD8i"
     },
     {
       "icon7": "fa fa-comments-",
-      "title": "DONATE 101 PLATES",
-      "text": "Rs. 4,040 ",
-      "donateLink": "https://pmny.in/gIjehgRXcmnf"
+      "text": "Rs. 1,00,001",
+      "donateLink": "https://pmny.in/RrfJZhi2652J"
     },
     {
       "icon8": "fa fa-comments-",
-      "title": "DONATE ANY AMOUNT",
-      "text": "Rs. 40 per plate",
-      "donateLink": "https://pmny.in/TI3kANuWPLAN"
+      "title": "ANY AMOUNT",
+
+      "donateLink": "https://payu.in/web/4DC8A92810F3A39223D3E07AE107A8B4"
     }
 
   ]
