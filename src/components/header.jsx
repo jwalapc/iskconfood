@@ -11,14 +11,7 @@ export const Header = (props) => {
   ];
 
   return (
-    <header
-      id="header"
-      style={{
-        height: "82vh",
-        overflow: "hidden",
-        backgroundAttachment: "fixed",
-      }}
-    >
+    <header id="header" style={{ overflow: "hidden",height: "82vh"}}>
       <Carousel
         showArrows={false}
         showStatus={false}
@@ -34,26 +27,29 @@ export const Header = (props) => {
               className="intro"
               style={{
                 background: `url(${image}) center center no-repeat`,
-                backgroundSize: "cover",
-                overflow: "hidden",
-                height: "80vh",
-                position: "relative",
-                bottom: "-100px",                
-              }}
+                backgroundSize: "cover", // Use "cover" for responsive background image size
+                overflow: "hidden", // Changed to "hidden" for a cleaner look
+                minHeight: "100vh", // Use "100vh" for full viewport height
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                imageRendering: "-webkit-optimize-contrast",
+                maxWidth: "100vw",
+
+
+                
+                }}
             >
               <div className="overlay">
                 <div className="container">
                   <div className="row">
                     <div className="col-md-8 col-md-offset-2 intro-text">
-                      <h1  style={{position:"relative",top:"-140px"}}>
+                      <h1>
                         {props.data ? props.data.title : "Loading"}
                         <span></span>
                       </h1>
                       <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                      <a
-                        href="#features"
-                        className="btn btn-custom btn-lg page-scroll"
-                        style={{position:"relative",top:"-190px"}}>
+                      <a href="#features" className="btn btn-custom btn-lg page-scroll">
                         Donate Now
                       </a>
                     </div>
