@@ -557,7 +557,7 @@ header .intro-text {
 #about {
   padding: 100px 0;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .about-section {
     width: 100%;
     max-width: 385px;
