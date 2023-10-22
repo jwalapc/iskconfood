@@ -418,7 +418,7 @@ hr {
 @media (max-width: 360px) {
   .section-title {
     width: 100%;
-    max-width: 240px;
+    max-width: 200px;
     margin: 0 auto;
 
   }
@@ -555,7 +555,7 @@ header .intro-text {
 @media (max-width: 768px) {
   .about-section {
     width: 100%;
-    max-width: 385px;
+    max-width: 390px;
 
 
 
@@ -564,7 +564,7 @@ header .intro-text {
 @media (max-width: 360px) {
   .about-section {
     width: 100%;
-    max-width: 350px;
+    max-width: 370px;
 
 
 
@@ -828,7 +828,7 @@ header .intro-text {
 @media (max-width: 768px) {
   #contact {
     width: 100%;
-    max-width: 400px;
+    max-width: 800px;
   }
 }
 @media (max-width: 360px) {

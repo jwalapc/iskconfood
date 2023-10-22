@@ -4,14 +4,12 @@ import { Carousel } from "react-responsive-carousel";
 
 export const Header = (props) => {
   const images = [
-    "img/portfolio/is111.jpg",
-    "img/portfolio/pic2.jpg",
     "img/portfolio/pic3.jpg",
     // Add more image URLs here
   ];
 
   return (
-    <header id="header" style={{ overflow: "hidden",height: "84vh"}}>
+    <header id="header" style={{ overflow: "hidden",height: "75vh"}}>
       <Carousel
         showArrows={false}
         showStatus={false}
