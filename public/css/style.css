@@ -230,10 +230,7 @@ list-style {
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s;
-  display:flexbox;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
+
   
 
 }
@@ -252,10 +249,10 @@ list-style {
     max-width: 300px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .feature-item {
     width: 100%;
-    max-width: 240px;
+    max-width: 260px;
   }
 }
 
@@ -418,7 +415,7 @@ hr {
 
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .section-title {
     width: 100%;
     max-width: 240px;
@@ -566,7 +563,7 @@ header .intro-text {
 
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .about-section {
     width: 100%;
     max-width: 350px;
@@ -688,6 +685,18 @@ header .intro-text {
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
+}
+ @media (max-width: 768px) {
+  .portfolio-item {
+    width: 100%;
+    max-width: 360px;
+  }
+}
+@media (max-width: 360px) {
+  .portfolio-item {
+    width: 100%;
+    max-width: 340px;
+  }
 }
 
 
@@ -818,6 +827,18 @@ header .intro-text {
   /* Add more styles for the container, such as width, height, padding, etc. */
   background-color: #007bff;
 }
+@media (max-width: 768px) {
+  #contact {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+@media (max-width: 360px) {
+  #contact {
+    width: 100%;
+    max-width: 340px;
+  }
+}
 #contact .section-title {
   margin-bottom: 40px;
 }
@@ -945,6 +966,19 @@ label {
   background: #f6f6f6;
   padding: 30px 0;
 }
+@media (max-width: 768px) {
+  #footer {
+    width: 100%;
+    max-width: 360px;
+  }
+}
+@media (max-width: 360px) {
+  #footer {
+    width: 100%;
+    max-width: 340px;
+  }
+}
+
 #footer p {
   color: #888;
   font-size: 20px;
