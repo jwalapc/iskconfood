@@ -5,7 +5,7 @@ export const Testimonials = (props) => {
     <div id="testimonials">
       <div className="container">
         <div className="section-title text-center">
-          <h2>Testimonials</h2>
+        <h2 style={{ position: "relative", left: "10px" }}>Testimonials</h2>
         </div>
         <div className="row">
           {props.data
