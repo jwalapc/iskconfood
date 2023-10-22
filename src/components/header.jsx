@@ -19,7 +19,16 @@ export const Header = (props) => {
         infiniteLoop={true}
         autoPlay={true}
         useKeyboardArrows={true}
-        customTransition="all .1"
+        customTransition="all .5"
+        transitionDuration={1000}
+        swipeable={true}
+        emulateTouch={true}
+        stopOnHover={true}
+        dynamicHeight={false}
+        showThumbs={false} 
+        style={{ overflow: "hidden",height: "84vh"}}
+          
+        
       >
         {images.map((image, index) => (
           <div key={index}>
