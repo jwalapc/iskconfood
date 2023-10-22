@@ -11,7 +11,7 @@ export const Header = (props) => {
   ];
 
   return (
-    <header id="header" style={{ overflow: "hidden",height: "82vh"}}>
+    <header id="header" style={{ overflow: "hidden",height: "84vh"}}>
       <Carousel
         showArrows={false}
         showStatus={false}
