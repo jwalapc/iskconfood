@@ -78,7 +78,7 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2 style={{ color: "#ffffff" }}>Get In Touch</h2>
                 <p style={{ color: "#ffffff", fontSize: "25px", fontWeight: "bold" }}>
-                Registered under Maharashtra Public Trust Act 1950 vide Registration No.F-2179 (Bom)
+                Registered under Maharashtra Public Trust Act 1950 vide Registration No. F-2179 (Bom)
                 </p>
               </div>
             </div>
