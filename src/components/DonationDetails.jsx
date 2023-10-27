@@ -67,13 +67,18 @@ export const DonationDetails = () => {
         </table>
       </div>
       <div className="attractive-para">
-        <p><h3>
-        *Please share your transaction details on
-</h3>
+        <p>
+          <h3>*Please share your transaction details on</h3>
           <br />
-          Email: Pranav@iskconmumbai.com
+          Email:{" "}
+          <a href="mailto:Pranav@iskconmumbai.com" style={{ color: "black" }}>
+            Pranav@iskconmumbai.com
+          </a>
           <br />
-          WhatsApp: +91-6263756519
+          WhatsApp:{" "}
+          <a href="https://wa.me/916263756519" style={{ color: "black" }}>
+            +91-6263756519
+          </a>
         </p>
       </div>
     </div>

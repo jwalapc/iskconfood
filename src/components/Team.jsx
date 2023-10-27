@@ -7,18 +7,24 @@ export const Team = () => {
     padding: '80px',
   };
 
-  const iframeContainerStyle = {
-    width: '100%',
-    position: 'relative',
-    paddingBottom: '75%', // Adjust the aspect ratio (e.g., 75% for a 4:3 aspect ratio)
+  const pdfURL = 'img/portfolio/sample.pdf'; // Replace with the URL to your PDF file
+
+  const buttonContainerStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '120px',
+    width: '200px',
+    border: '2px solid #007BFF',
+    borderRadius: '10px',
+    backgroundColor: '#007BFF',
+    cursor: 'pointer', // Add cursor pointer to make it look clickable
   };
 
-  const iframeStyle = {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    width: '100%',
-    height: '100%',
+  const buttonStyle = {
+    fontSize: '25px',
+    color: 'white',
+    textDecoration: 'none',
   };
 
   return (
@@ -27,14 +33,18 @@ export const Team = () => {
         <div className="titleHolder">
           <h2 style={{ textAlign: 'center' }}>Why we do what we do?</h2>
         </div>
-        <div style={iframeContainerStyle}>
-          <iframe
-            title="PDF Viewer"
-            src="img/portfolio/sample.pdf" // Replace with the URL to your PDF file
-            style={iframeStyle} // Apply the responsive style
-            frameBorder="0"
-            allowFullScreen
-          ></iframe>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <div
+            style={buttonContainerStyle}
+            onClick={() => {
+              // Redirect to the PDF URL when the box is clicked
+              window.location.href = pdfURL;
+            }}
+          >
+            <a href={pdfURL} download="sample.pdf" style={buttonStyle}>
+              Download PDF
+            </a>
+          </div>
         </div>
       </div>
     </div>
