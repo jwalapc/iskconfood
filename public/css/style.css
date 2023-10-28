@@ -86,14 +86,14 @@ body, html {
 }
 
 .shlok {
-  font-family: 'Sans-serif'; /* Choose an appropriate font */
+  font-family: 'lato'; /* Choose an appropriate font */
   font-weight: bold;
   font-size: 36px;
   margin: 10px 0;
 }
 
 .translation {
-  font-family: 'Sans-serif'; /* Choose an appropriate font */
+  font-family: 'lato'; /* Choose an appropriate font */
   font-style: italic;
   font-size: 24px;
   margin: 10px 0;
@@ -141,7 +141,7 @@ body, html {
 /* Add pseudo-elements for symbols */
 .donation-counter::before {
   content: "\f017"; /* Unicode for the FontAwesome Kitchen symbol */
-  font-family: FontAwesome;
+  font-family: "lato";
   font-size: 30px;
   position: absolute;
   top: 10px;
@@ -150,7 +150,7 @@ body, html {
 
 .donation-counter::after {
   content: "\f4b0"; /* Unicode for the FontAwesome Donation symbol */
-  font-family: FontAwesome;
+  font-family: "lato";
   font-size: 30px;
   position: absolute;
   top: 10px;
@@ -161,7 +161,7 @@ body, html {
 .about-section {
   background-color: white;
   padding: 50px;
-  font-family: "Arial", sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 .about-container {
@@ -261,7 +261,7 @@ list-style {
 
 
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "lato", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -275,7 +275,7 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "lato", sans-serif;
 }
 h2 {
   text-transform: uppercase;
@@ -345,7 +345,7 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: "lato", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #333;
@@ -445,7 +445,7 @@ hr {
   font-size: 18px;
 }
 .btn-custom {
-  font-family: "Raleway", sans-serif;
+  font-family: "lato", sans-serif;
   text-transform: uppercase;
   color: #fff;
   background-color: #f19812ef;
@@ -501,7 +501,7 @@ a:focus,
   height: 100vh;}
 
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: "lato", sans-serif;
   color: #fff;
   font-size: 82px;
   font-weight: 700;
@@ -610,7 +610,7 @@ header .intro-text {
 }
 #about .about-text li:before {
   content: "\f00c";
-  font-family: "FontAwesome";
+  font-family: "lato";
   color: #5ca9fb;
   font-size: 11px;
   font-weight: 300;
@@ -884,7 +884,7 @@ header .intro-text {
 label {
   font-size: 12px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: "lato", sans-serif;
   float: left;
 }
 #contact .form-control {
