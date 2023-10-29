@@ -243,13 +243,13 @@ list-style {
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48em) {
   .feature-item {
     width: 100%;
     max-width: 300px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 22.5em) {
   .feature-item {
     width: 100%;
     max-width: 260px;
@@ -407,7 +407,7 @@ hr {
 .section-title {
   margin-bottom: 70px;
 }
-@media (max-width: 768px) {
+@media (max-width: 48emx) {
   .section-title {
     width: 100%;
     max-width: 300px;
@@ -415,7 +415,7 @@ hr {
 
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 22.5em) {
   .section-title {
     width: 100%;
     max-width: 200px;
@@ -552,7 +552,7 @@ header .intro-text {
 #about {
   padding: 100px 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 48em) {
   .about-section {
     width: 100%;
     max-width: 390px;
@@ -561,7 +561,7 @@ header .intro-text {
 
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 22.5em) {
   .about-section {
     width: 100%;
     max-width: 370px;
@@ -684,13 +684,13 @@ header .intro-text {
   margin: 1px -15px 0 -14px;
   padding: 0;
 }
- @media (max-width: 768px) {
+ @media (max-width: 48em) {
   .portfolio-item {
     width: 100%;
     max-width: 360px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 22.5em) {
   .portfolio-item {
     width: 100%;
     max-width: 340px;
@@ -754,7 +754,7 @@ header .intro-text {
 
 
 }
-@media (max-width: 768px) {
+@media (max-width: 48em) {
   #testimonials {
     width: 100%;
     max-width: 370px;
@@ -825,13 +825,13 @@ header .intro-text {
   /* Add more styles for the container, such as width, height, padding, etc. */
   background-color: #007bff;
 }
-@media (max-width: 768px) {
+@media (max-width: 48em) {
   #contact {
     width: 100%;
     max-width: 800px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 22.5em) {
   #contact {
     width: 100%;
     max-width: 340px;
@@ -957,20 +957,20 @@ label {
 }
 #contact .social i.fa:hover {
   color: #f19812ef;
-  background: #ddd;
+  background: white;
 }
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
+  background: white;
   padding: 30px 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 48em) {
   #footer {
     width: 100%;
     max-width: 360px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 22.5em) {
   #footer {
     width: 100%;
     max-width: 340px;
@@ -978,7 +978,7 @@ label {
 }
 
 #footer p {
-  color: #888;
+  color: white;
   font-size: 20px;
 }
 #footer a {
@@ -988,7 +988,7 @@ label {
   border-bottom: 2px solid #f19812ef;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48em ) {
   #about img {
     margin: 50px 0;
   }
