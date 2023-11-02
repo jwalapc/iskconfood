@@ -46,6 +46,8 @@ export const Gallery = () => {
   return (
     <div id="portfolio" style={galleryStyle}>
       <h1 style={{ textAlign: 'center', fontWeight: 'bold', color: "black" }}>Gallery</h1>
+      <br />
+      <br />
       <ImageGallery
         items={images}
         showPlayButton={true}
