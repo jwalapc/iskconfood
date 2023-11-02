@@ -33,7 +33,7 @@ export const DonationDetails = () => {
       detailLabel: "Paytm Number",
       detailValue: "7400056919",
     },
-  ];
+  ]
 
   const copyToClipboard = (text) => {
     const textArea = document.createElement("textarea");
@@ -51,12 +51,17 @@ export const DonationDetails = () => {
           <tbody>
             {details.map((item, index) => (
               <tr key={index}>
-                <td className="detail-label">{item.detailLabel}</td>
-                <td className="detail-value">{item.detailValue}</td>
-                <td className="copy-button-column">
+                <td className="detail-label" style={{ fontSize: "12px", padding: "2px" }}>
+                  {item.detailLabel}
+                </td>
+                <td className="detail-value" style={{ fontSize: "12px", padding: "2px" }}>
+                  {item.detailValue}
+                </td>
+                <td className="copy-button-column" style={{ padding: "2px" }}>
                   <button
                     className="btn btn-primary"
                     onClick={() => copyToClipboard(item.detailValue)}
+                    style={{ fontSize: "12px" }}
                   >
                     Copy
                   </button>

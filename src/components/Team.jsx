@@ -13,8 +13,8 @@ export const Team = () => {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '120px',
-    width: '200px',
+    height: '70px',
+    width: '180px',
     border: '2px solid #007BFF',
     borderRadius: '10px',
     backgroundColor: '#007BFF',
@@ -33,6 +33,7 @@ export const Team = () => {
         <div className="titleHolder">
           <h2 style={{ textAlign: 'center' }}>Why we do what we do?</h2>
         </div>
+        <br/>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <div
             style={buttonContainerStyle}
