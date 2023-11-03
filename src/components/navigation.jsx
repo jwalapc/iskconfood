@@ -69,7 +69,7 @@ export const Navigation = (props) => {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a
-                href="#features"
+                href="#donate"
                 className="page-scroll"
                 onClick={handleNavLinkClick}
               >

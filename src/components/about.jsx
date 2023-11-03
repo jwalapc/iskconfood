@@ -43,6 +43,10 @@ export const About = (props) => {
 
   return (
     <div id="about" className="about-section" style={containerStyle}>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <div className="container about-container">
         <div className="row">
           <div className="col-md-12">

@@ -14,12 +14,15 @@ const DonationInfo = () => {
   };
 
   const textStyle = {
-    fontSize: "2rem",
+    fontSize: "1.8rem",
     margin: "0",
   };
 
   return (
-    <div style={containerStyle}>
+    <div style={containerStyle} id="donate">
+      <br />
+      <br />
+      <br />
       <h2 style={titleStyle}>DONATE FOR A CHILD</h2>
       <p style={textStyle}>
         All Donations paid within India are Tax Exempted under 80G Section of
