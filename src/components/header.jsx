@@ -25,36 +25,39 @@ const Header = () => {
   };
 
   const buttonStyle = {
-    display: "block",
+    display: "flex",
     margin: "0 auto",
     textAlign: "center",
+    fontSize: "16px", // Adjust the font size as needed
     marginBottom: "20px", // Add margin for spacing on smaller screens
+    width: "200px", // Adjust width as needed
+    position: "relative",
+    top: "10px",
   };
 
   return (
-    <div style={headerStyle}>
-      <div style={{ width: "50%", maxWidth: "800px" }}>
-        <Carousel
-          showArrows={true}
-          showThumbs={false}
-          infiniteLoop={true}
-          autoPlay={true}
-          selectedItem={currentIndex}
-          onChange={handleCarouselChange}
-        >
-          {imageUrls.map((imageUrl, index) => (
-            <div key={index}>
-              <img src={imageUrl} alt={`Image ${index + 1}`} />
-            </div>
-          ))}
-        </Carousel>
+    <div>
+      <div style={headerStyle}>
+        <div style={{ width: "50%", maxWidth: "800px" }}>
+          <Carousel
+            showArrows={true}
+            showThumbs={false}
+            infiniteLoop={true}
+            autoPlay={true}
+            selectedItem={currentIndex}
+            onChange={handleCarouselChange}
+          >
+            {imageUrls.map((imageUrl, index) => (
+              <div key={index}>
+                <img src={imageUrl} alt={`Image ${index + 1}`} />
+              </div>
+            ))}
+          </Carousel>
+        </div>
       </div>
-
-      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
-        <a href="#donate" className="btn btn-custom btn-lg page-scroll" style={buttonStyle}>
-          Donate Now
-        </a>
-      </div>
+      <a href="#donate" className="btn btn-custom btn-sm page-scroll" style={buttonStyle}>
+        Donate Now
+      </a>
     </div>
   );
 };
