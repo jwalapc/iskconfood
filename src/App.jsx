@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
+import Header  from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
 import { Services } from "./components/services";
@@ -30,7 +30,7 @@ const App = () => {
   return (
     <div>
       <Navigation />
-      <Header data={landingPageData.Header} />
+      <Header  />
       <DonationCounter />
       <ShlokComponent />
       <Features data={landingPageData.Features} />
