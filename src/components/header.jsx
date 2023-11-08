@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { Carousel } from "react-responsive-carousel";
+import React, { useState, useEffect } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Header = () => {
@@ -10,9 +9,14 @@ const Header = () => {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const handleCarouselChange = (index) => {
-    setCurrentIndex(index);
-  };
+  useEffect(() => {
+    // Use a timer to change the background image at a specific interval
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % imageUrls.length);
+    }, 5000); // Change the image every 5 seconds (adjust as needed)
+
+    return () => clearInterval(interval); // Cleanup the interval on component unmount
+  }, []);
 
   const headerStyle = {
     display: "flex",
@@ -39,20 +43,7 @@ const Header = () => {
     <div>
       <div style={headerStyle}>
         <div style={{ width: "50%", maxWidth: "800px" }}>
-          <Carousel
-            showArrows={true}
-            showThumbs={false}
-            infiniteLoop={true}
-            autoPlay={true}
-            selectedItem={currentIndex}
-            onChange={handleCarouselChange}
-          >
-            {imageUrls.map((imageUrl, index) => (
-              <div key={index}>
-                <img src={imageUrl} alt={`Image ${index + 1}`} />
-              </div>
-            ))}
-          </Carousel>
+          {/* You can remove the Carousel component */}
         </div>
       </div>
       <a href="#donate" className="btn btn-custom btn-sm page-scroll" style={buttonStyle}>

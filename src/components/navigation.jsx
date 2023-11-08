@@ -122,7 +122,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-            <a href="#features" className="btn btn-custom btn-lg page-scroll" style={{borderRadius:"90px",backgroundColor:"#f19812ef",color:"white",fontsize:"10%"}}                onClick={handleNavLinkClick}
+            <a href="#donate" className="btn btn-custom btn-lg page-scroll" style={{borderRadius:"90px",backgroundColor:"#f19812ef",color:"white",fontsize:"10%"}}                onClick={handleNavLinkClick}
 >
                         Donate Now
                       </a>
